@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Procesos</title>
+</head>
+<body>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ID</th>
+      <th>Instancia</th>
+      <th>JuzgadoOrigen</th>
+      <th>ClaseAlzada</th>
+      <th>Radicado</th>
+      <th>Especialidad</th>
+      <th>TemaEspecialidad</th>
+      <th>Demandado</th>
+      <th>Demandante</th>
+      <th>TerceroInterviniente</th>
+      <th>FechaReparto</th>
+      <th>FechaAdmision</th>
+      <th>EstadoProceso</th>
+      <th>FechaUltimaActuacion</th>
+      <th>DescripcionUltimaActuacion</th>
+      <th>FechaDecisionFinal</th>
+      <th>DecisionFinal</th>
+      <th>FechaSalida</th>
+      <th>ObservacionProceso</th>
+      <th>LinkProceso</th>
+      <th>FechaVencimiento1</th>
+      <th>FechaVencimiento2</th>
+      <th>TemaEspecifico</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Segunda Instancia</td>
+      <td>Despacho 01 Sala Civil Familia Laboral</td>
+      <td>Apelación Sentencia</td>
+      <td>70000000000000000000000</td>
+      <td>Civil</td>
+      <td>NaN</td>
+      <td>Juancho</td>
+      <td>Pedro</td>
+      <td>NaN</td>
+      <td>08/06/2026</td>
+      <td>02/06/2026</td>
+      <td>En Secretaría</td>
+      <td>02/06/2026</td>
+      <td>Auto que requiere una información</td>
+      <td>02/06/2026</td>
+      <td>Sentencia revoca</td>
+      <td>NaN</td>
+      <td>esto ers una prueba</td>
+      <td>https://etbcsj-my.sharepoint.com/my?id=%2Fpersonal%2Fstectssinc%5Fcendoj%5Framajudicial%5Fgov%5Fco%2FDocuments%2FMicrositio%2FEstados&amp;ga=1</td>
+      <td>08/12/2026</td>
+      <td>08/06/2027</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 03 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220130060301</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>ELECTRICARIBE SA</td>
+      <td>PIEDAD MONTES CERRA</td>
+      <td>NaN</td>
+      <td>27/07/2018</td>
+      <td>NaN</td>
+      <td>Suspendido</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>MEJOR PROVEER AGOSTO 2025</td>
+      <td>https://etbcsj.sharepoint.com/teams/ControlProcesosJudiciales2/Lists/Procesos/AllItems.aspx</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 03 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500320160010301</td>
+      <td>Familia</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>SANITAS MED. PREPAGADA</td>
+      <td>CLAUDIA CASTILLA RODRIGUEZ</td>
+      <td>NaN</td>
+      <td>31/01/2019</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>SANITAS INTERVENIDA POR LA SUPER SALUD- AGENTE INTERVENTOR</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220160008701</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Seguridad Social</td>
+      <td>COLPENSIONES</td>
+      <td>GUILLERMINA SANTÍS PINEDO</td>
+      <td>NaN</td>
+      <td>14/05/2019</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>EN PASES CON TRANCRIPCIÓN LISTA</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado Civil Circuito de Corozal</td>
+      <td>Apelación Habeas Corpus</td>
+      <td>70215318900120170019201</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>SINPROFISALUD</td>
+      <td>KARINA MARGARITA VEGA PÉREZ</td>
+      <td>NaN</td>
+      <td>13/01/2020</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Primera Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Auto y Sentencia</td>
+      <td>70001310500120180042001</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>ARGOS -SODEXO S.A.S</td>
+      <td>FREDYS JESUS BELTRAN MERCADO</td>
+      <td>NaN</td>
+      <td>02/03/2020</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Auto y Sentencia</td>
+      <td>70001310500120190016101</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>NUEVO MERCADO DE SJO- PROPIEDAD HORIZONTAL</td>
+      <td>FELIX ANTONIO SALGADO BUELVAS</td>
+      <td>NaN</td>
+      <td>21/10/2020</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>EXPEDIENTE OK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120180012501</td>
+      <td>Familia</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>M &amp; S ASOCIADOS LTDA</td>
+      <td>PABLO TAMAR ALVIZ</td>
+      <td>NaN</td>
+      <td>03/12/2020</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>IMPULSO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Primera Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220150060401</td>
+      <td>Civil</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>CEMENTOS ARGOS S.A Y COLPENSIONES</td>
+      <td>FRANKLIN CARRASCAL</td>
+      <td>NaN</td>
+      <td>26/03/2021</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 03 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500320180021801</td>
+      <td>Civil</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>CEMENTOS ARGOS S.A</td>
+      <td>PEDRO ANTONIO SIERRA SALAZAR</td>
+      <td>NaN</td>
+      <td>05/05/2021</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Primera Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120190029601</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>ALMIDONES DE SUCRE</td>
+      <td>IVAN ZARATE ALVAREZ</td>
+      <td>NaN</td>
+      <td>08/10/2021</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220170045201</td>
+      <td>Familia</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>COMFASUCRE</td>
+      <td>CIRA DEL CARMEN FARIA HERNANDES</td>
+      <td>NaN</td>
+      <td>06/03/2023</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Conflicto de Competencia</td>
+      <td>70001310500220190009901</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>SILVIO TULIO SEVERICHE</td>
+      <td>FREDDY JOSE HERNANDEZ PEREZ</td>
+      <td>NaN</td>
+      <td>23/03/2023</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220180003503</td>
+      <td>Civil</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>URIEL DE JESUS BOTERO ZULUAGA</td>
+      <td>ROBERTH ENRIQUE ANDRADE SERRA</td>
+      <td>NaN</td>
+      <td>22/06/2023</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 03 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500320160039801</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>SAMIRA SOLANO DE FAUL</td>
+      <td>PABLO MÉNDEZ CORPAS</td>
+      <td>NaN</td>
+      <td>21/01/2019</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>EN PASES CON TRANSCRIPCIÓN LISTA</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120220001101</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>JUAN CARLOS FERNANDEZ DAJUD</td>
+      <td>MEDARDO ENRIQUE HERRERA POLO</td>
+      <td>NaN</td>
+      <td>21/07/2023</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>SOLCITU DE IMPULSO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70215318900220200007501</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>LUIS MIGUEL ASSIA SOLOZARNO</td>
+      <td>ARISTIDES JOSE MORENO VERGARA</td>
+      <td>NaN</td>
+      <td>24/08/2023</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Conflicto de Competencia</td>
+      <td>70001310500220170022301</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>HEREDEROS DETERMINADOS DEL SEÑOR ADOLFO DE JESUS GONZALES PATRÓN</td>
+      <td>EDUARDO JULIO CACERES</td>
+      <td>NaN</td>
+      <td>08/09/2023</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120180042501</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>CEMENTOS ARGOS S.A. y SODEXO S.A.S.</td>
+      <td>JUAN DAVID MARTÍNEZ VIDES</td>
+      <td>NaN</td>
+      <td>24/10/2023</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Promiscuo Circuito de San Marcos</td>
+      <td>Consulta</td>
+      <td>70708318900220170008804</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>AMELIA RAMONA JARABA RICARDO Y OTROS</td>
+      <td>AQUILES RAFAEL JARAVA CONTRERAS</td>
+      <td>NaN</td>
+      <td>30/10/2023</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado Laboral Circuito de Corozal</td>
+      <td>Apelación Sentencia</td>
+      <td>70215318900219990008601</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>CONTUPERSONAL</td>
+      <td>JOSE MANUELPOLO BOHORQUES Y OTROS</td>
+      <td>NaN</td>
+      <td>28/06/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Promiscuo Circuito de Sincé</td>
+      <td>Apelación Sentencia</td>
+      <td>70742318900120210002002</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>HEREDEROS</td>
+      <td>ENA LUCIA SEVERICHE MARTINEZ</td>
+      <td>NaN</td>
+      <td>06/08/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 03 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500320220017901</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>COMUNICACIÓN CELULAR S.A. COMCEL S.A.</td>
+      <td>LILIBETH ESTHER TIRADO SALCEDO</td>
+      <td>NaN</td>
+      <td>02/07/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Promiscuo Circuito de San Marcos</td>
+      <td>Apelación Sentencia</td>
+      <td>70708318900220190002802</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>NERY MONTES VIDAL</td>
+      <td>PABLO HERNAN UPARELA MONTERROZA</td>
+      <td>NaN</td>
+      <td>08/07/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado Laboral Circuito de Corozal</td>
+      <td>Apelación Sentencia</td>
+      <td>70215310500120230005701</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>SIXTA TULIA PÉREZ ARRIETA</td>
+      <td>SAGRARIO DE JESÚS TOVAR GOMEZ</td>
+      <td>NaN</td>
+      <td>09/07/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220200017202</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>IPS VIDA PLENA SAS</td>
+      <td>ANDRES MARIO RINCON CAMPO</td>
+      <td>NaN</td>
+      <td>19/07/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120230010901</td>
+      <td>Civil</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>CESAR AUGUSTO CASTILLA ANAYA</td>
+      <td>FARIDE DEL SOCORRO MARTINEZ IMITOLA y OTROS</td>
+      <td>NaN</td>
+      <td>31/07/2024</td>
+      <td>22/08/2024</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>SE ADMITIO 22/08/2024 SIUGJ</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120180044801</td>
+      <td>Civil</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>FUNDACION  REHABILITAMOS</td>
+      <td>GIL  YANETH  MONTERROZA  ALMANZA</td>
+      <td>NaN</td>
+      <td>31/07/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO SIUGJ</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado Laboral Circuito de Corozal</td>
+      <td>Apelación Sentencia</td>
+      <td>70215310500120240004401</td>
+      <td>Familia</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>NUEVA CLINICA COROZAL SAS</td>
+      <td>JESUS DAVID MERCADO FLOREZ</td>
+      <td>NaN</td>
+      <td>27/08/2024</td>
+      <td>20/09/2024</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>AUTO ADMITE 20-09-24</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado Laboral Circuito de Corozal</td>
+      <td>Apelación Sentencia</td>
+      <td>70215310500120240004001</td>
+      <td>Penal</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>JESUS ANTONIO GOMEZ GOMEZ</td>
+      <td>ALEXANDER MEDINA TORRES</td>
+      <td>NaN</td>
+      <td>19/09/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Promiscuo Circuito de Sincé</td>
+      <td>Apelación Sentencia</td>
+      <td>70708318900220230001801</td>
+      <td>Penal</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>JAIRO NUÑEZ BARRETO R.L. TRANSPORTES SANTODOMINGO S.A.S</td>
+      <td>JOSÉ DE JESUS PADILLA VERGARA (</td>
+      <td>NaN</td>
+      <td>20/09/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>SE DEJÓ UN SOLO REPARTO 01</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220200020001</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>DIAN Y LADOINSA LABORALES INDUSTRIALES DOTACIONES SAS</td>
+      <td>DAIRO OSVALDO CONTRERAS MONTENEGRO</td>
+      <td>NaN</td>
+      <td>04/10/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO SIUGJ</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Promiscuo Circuito de Sincé</td>
+      <td>Apelación Sentencia</td>
+      <td>70742318900120180012602</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>MUNICIPIO DE GALERIAS Y OTRO</td>
+      <td>CLAUDIA GONZALEZ RUBIO</td>
+      <td>NaN</td>
+      <td>25/10/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220220010501</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>CONSORCIO RUTA SALVADOR Y OTROS</td>
+      <td>KATIA PAOLA CONTRERAZ MENDEZ</td>
+      <td>NaN</td>
+      <td>13/11/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Promiscuo Circuito de Majagual</td>
+      <td>Apelación Sentencia</td>
+      <td>70429318900120090015401</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>ACUASUCRE – MUNICIPIO DE SUCRE – SUCRE</td>
+      <td>LELIS MARINA RUZ VEGA</td>
+      <td>NaN</td>
+      <td>27/11/2024</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado Laboral Circuito de Corozal</td>
+      <td>Apelación Sentencia</td>
+      <td>70215310300120220010001</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>EMPRESA MUNICIPAL DE ACUEDUCTO, ALCANTARILLADO Y ASEO DE OVEJAS S.A. E.S.P. –AAA DE OVEJAS S.A. E.S.P.</td>
+      <td>JORGE ELIECER RIVERO FLOREZ</td>
+      <td>NaN</td>
+      <td>02/12/2024</td>
+      <td>22/01/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>AUTO ADMISORIO 22-1-25</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120230019701</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>ORGANIZACIÓN RADIAL OLIMPICA S.A</td>
+      <td>TONY JAVIER GOMES CASSERES VERBEL</td>
+      <td>NaN</td>
+      <td>23/01/2025</td>
+      <td>06/03/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 06/03/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 03 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500320180038001</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>ECOPETROL S.A. Y MARINOS S.A.S.</td>
+      <td>BENJAMIN LOPEZ BLANCO Y JOSE MARTINEZ NAVARRO</td>
+      <td>NaN</td>
+      <td>29/01/2025</td>
+      <td>06/03/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 06/03/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado Laboral Circuito de Corozal</td>
+      <td>Apelación Sentencia</td>
+      <td>70215310500120240013701</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>CDF COLOMBIA S.A, FABIAN OCAMPO FARIAS, OSCAR GERARDO PATRON GUEVARA</td>
+      <td>GUADALUPE RIVERO ARIAS</td>
+      <td>NaN</td>
+      <td>18/02/2025</td>
+      <td>06/03/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 06/03/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500220170003501</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>"CLINICA LAS PEÑITAS SAS\r"</td>
+      <td>MARIA ENOT MORENO AGUDELO</td>
+      <td>NaN</td>
+      <td>21/03/2025</td>
+      <td>27/03/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 27/03/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado Laboral Circuito de Corozal</td>
+      <td>Apelación Sentencia</td>
+      <td>70215310300120220021401</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>JOSE VICTOR SOTO ROBLES, MARCELA CRISTINA BARRETO CONTRERAS, NATALIA ALVAREZ VERGARA</td>
+      <td>JORGE LUIS TOVAR MUÑOZ"</td>
+      <td>NaN</td>
+      <td>26/03/2025</td>
+      <td>16/07/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 16/07/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120240009301</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>IPS SALUD A TU LADO S.A.S</td>
+      <td>AUGUSTO JOSE ECHEVERY PINEDA</td>
+      <td>NaN</td>
+      <td>01/04/2025</td>
+      <td>16/07/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 16/07/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 02 Promiscuo Circuito de San Marcos</td>
+      <td>Apelación Sentencia</td>
+      <td>70708318900220210005002</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>NAZLY DEL ROSARIO VERGARA VERGARA - LUIS TOMAS&lt;br&gt;FARAK MARZOLA&lt;br&gt;"</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>01/04/2025</td>
+      <td>16/07/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>"ADMITIDO 16/07/2025"</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Promiscuo Circuito de Sincé</td>
+      <td>Apelación Sentencia</td>
+      <td>70742318900120190016402</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>LUIS ENRIQUE RODRIGUEZ RIVERA</td>
+      <td>ROBINSON LUIS MONTERROZA ALVAREZ</td>
+      <td>NaN</td>
+      <td>13/06/2025</td>
+      <td>27/08/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 27/08/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120220022901</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>ATIEMPO SERVICIOS S.A.S. (SERVIATIEMPO), GASEOSAS LUX SAS</td>
+      <td>GABRIEL AMET CHARRIS CARRENO</td>
+      <td>NaN</td>
+      <td>13/06/2025</td>
+      <td>27/08/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 27/08/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120240013201</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Contrato de Trabajo</td>
+      <td>I.P.S. VIDA PLENA S.A.S.</td>
+      <td>RITA MARGARITA LLERENA MATUTE</td>
+      <td>NaN</td>
+      <td>13/06/2025</td>
+      <td>25/08/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 25/08/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Laboral Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70001310500120240005301</td>
+      <td>Laboral</td>
+      <td>Ordinario Laboral - Seguridad Social</td>
+      <td>JUNTA NACIONAL DE CALIFICACIÓN DE INVALIDEZ, POSITIVA COMPAÑIA DE SEGUROS S.A.</td>
+      <td>YORBIS DE JESUS ALDANA JARABA"</td>
+      <td>NaN</td>
+      <td>13/06/2025</td>
+      <td>25/08/2025</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ADMITIDO 25/08/2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Civil Circuito de Sincelejo</td>
+      <td>Apelación Auto</td>
+      <td>70000000000000000000001</td>
+      <td>Familia</td>
+      <td>Permiso de Salida del País para Menores</td>
+      <td>LUIS</td>
+      <td>JOSE</td>
+      <td>MARTINEZ</td>
+      <td>17/06/2026</td>
+      <td>17/06/2026</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>17/12/2026</td>
+      <td>17/06/2027</td>
+      <td>no hay</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>Primera Instancia</td>
+      <td>Expediente Propio</td>
+      <td>Apelación Auto</td>
+      <td>70000000000000000000002</td>
+      <td>Civil</td>
+      <td>Procesos Divisorios</td>
+      <td>pedro</td>
+      <td>fuancho</td>
+      <td>NaN</td>
+      <td>18/06/2026</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>18/06/2027</td>
+      <td>18/12/2027</td>
+      <td>por el momento ninguno</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>Primera Instancia</td>
+      <td>Expediente Propio</td>
+      <td>Apelación Auto y Sentencia</td>
+      <td>70000000000000000000004</td>
+      <td>Familia</td>
+      <td>Adopciones</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Penal Circuito de Corozal</td>
+      <td>Consulta</td>
+      <td>70000000000000000000005</td>
+      <td>Familia</td>
+      <td>Divorcio Contencioso</td>
+      <td>ELLA</td>
+      <td>EL</td>
+      <td>EL AMANTE</td>
+      <td>19/06/2026</td>
+      <td>NaN</td>
+      <td>En Secretaría</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>19/06/2026</td>
+      <td>Sentencia revoca</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>19/12/2026</td>
+      <td>19/06/2027</td>
+      <td>divorcio por cacho</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>Segunda Instancia</td>
+      <td>Juzgado 01 Familia Circuito de Sincelejo</td>
+      <td>Apelación Sentencia</td>
+      <td>70000000000000000000006</td>
+      <td>Civil</td>
+      <td>Nulidad y Rescision de contrato</td>
+      <td>a quien demandaron</td>
+      <td>el que demandó</td>
+      <td>ICBF</td>
+      <td>19/06/2026</td>
+      <td>NaN</td>
+      <td>Activo</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>es un proceso de ejemplo para ver cómo funciona</td>
+      <td>https://notiene.com</td>
+      <td>19/12/2026</td>
+      <td>19/06/2027</td>
+      <td>aqui se escribe en qué consiste la subida específicamente</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
