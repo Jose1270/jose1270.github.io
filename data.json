@@ -1,0 +1,6 @@
+{
+  "procesos": [
+    { "id": "2026-001", "estado": "Activo" },
+    { "id": "2026-002", "estado": "Finalizado" }
+  ]
+}
